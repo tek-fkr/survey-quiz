@@ -1,7 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from submitting
 
-    const sound = new Audio('media/girlCry.mp3');
+    const sound = new Audio('media/girlCry.mp3'); // Ensure the path to your sound file is correct
     sound.volume = 0.1; // Start with low volume
     sound.play();
 
